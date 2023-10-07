@@ -1,7 +1,8 @@
-export default function TimeAttackPage() {
+/* eslint-disable no-irregular-whitespace */
+const TimeAttackPage = () => {
   return (
     <article className="article">
-      <h1 className="article__title">Гонка ​​​​​​Time Attack</h1>
+      <h1 className="article__title">Гонка       Time Attack</h1>
       <p className="article__paragraph">
         Гонка Time Attack создана для тех, кто любит ставить рекорды –
    открытое соревнование на гражданских автомобилях не предполагает
@@ -16,3 +17,5 @@ export default function TimeAttackPage() {
     </article>
   )
 }
+
+export default TimeAttackPage

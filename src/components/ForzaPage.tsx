@@ -1,4 +1,4 @@
-export default function ForzaPage() {
+const ForzaPage = () => {
   return (
     <article className="article">
       <h1 className="article__title">Forza Karting Sochi</h1>
@@ -15,3 +15,5 @@ export default function ForzaPage() {
     </article>
   )
 }
+
+export default ForzaPage
